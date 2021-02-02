@@ -18,15 +18,12 @@ describe("sudoku", () => {
 });
 
 describe("gridChecker", ()=> {
-  test("should return 3 arrays within 1 arrays", () => {
+  
+  test("Should return true if 3 numbers are in each row", () => {
     expect(gridChecker(
       [3, 5, 7], 
       [2, 4, 6], 
-      [1, 8, 9])).toEqual([
-        [3, 5, 7], 
-        [2, 4, 6], 
-        [1, 8, 9]
-      ]);
+      [1, 8, 9])).toEqual(true);
   });
   
 });
