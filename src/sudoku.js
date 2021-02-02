@@ -11,21 +11,13 @@ export function sudoku(row) {
   return true;
 }
 
-export function gridChecker() {
-  /*
-  [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-  ]
-  */
+export function gridChecker(row1, row2, row3) {
+  let gridArr = [row1, row2, row3];
 
-  let array = [
-    [],
-    [],
-    []
-  ];
-  return array;
-
-
+  return gridArr;
 };
+
+// function add(num1, num2){
+//   return num1 + num2;
+// }
+// add(5, 6)

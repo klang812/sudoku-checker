@@ -19,7 +19,15 @@ describe("sudoku", () => {
 
 describe("gridChecker", ()=> {
   test("should return 3 empty arrays within 1 arrays", () => {
-    expect(gridChecker()).toEqual([[],[],[]]);
+    expect(gridChecker(
+      [3, 5, 7], 
+      [2, 4, 6], 
+      [1, 8, 9])).toEqual(
+        [3, 4, 7], 
+        [2, 5, 6], 
+        [1, 8, 9]);
+
+  
   });
   
 });
