@@ -18,7 +18,7 @@ describe("sudoku", () => {
 });
 
 describe("gridChecker", ()=> {
-  test("should return undefined", () => {
+  test("should return 3 empty arrays within 1 arrays", () => {
     expect(gridChecker()).toEqual(undefined);
   });
   
