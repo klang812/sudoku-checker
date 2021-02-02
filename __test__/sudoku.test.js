@@ -11,7 +11,7 @@ describe("sudoku", () => {
   });
 
   test("Should test given array contains no repeats", () => {
-    expect(sudoku([1, 2, 3, 4, 5, 6, 9, 8, 8])).toEqual(true);
+    expect(sudoku([1, 2, 3, 4, 5, 6, 9, 8, 8])).toEqual(false);
   });
 
 });
