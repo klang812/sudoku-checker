@@ -19,7 +19,7 @@ describe("sudoku", () => {
 
 describe("gridChecker", ()=> {
   test("should return undefined", () => {
-    expect(gridChecker()).toEqual(1);
+    expect(gridChecker()).toEqual(undefined);
   });
   
 });
