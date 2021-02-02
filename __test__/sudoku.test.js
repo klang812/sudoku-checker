@@ -18,7 +18,7 @@ describe("sudoku", () => {
 });
 
 describe("gridChecker", ()=> {
-  test("should return 3 empty arrays within 1 arrays", () => {
+  test("should return 3 arrays within 1 arrays", () => {
     expect(gridChecker(
       [3, 5, 7], 
       [2, 4, 6], 
