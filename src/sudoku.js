@@ -1,3 +1,3 @@
 export default function sudoku(num) {
-  return;
+  return num;
 }
