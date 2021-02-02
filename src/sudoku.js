@@ -1,4 +1,4 @@
-export default function sudoku(row) {
+export function sudoku(row) {
   let sortedRow = row.sort();
   if(sortedRow.length !== 9) {
     return false;
@@ -10,3 +10,9 @@ export default function sudoku(row) {
     }
   return true;
 }
+
+export function gridChecker() {
+  return;
+
+
+};
