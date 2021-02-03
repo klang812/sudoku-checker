@@ -26,4 +26,10 @@ describe("gridChecker", ()=> {
       [1, 8, 9])).toEqual(true);
   });
   
+  test("Should return true when sudoku function is given a flat array with numbers from 1 - 9 without repeats", () => {
+    expect(gridChecker(
+      [3, 5, 7], 
+      [2, 4, 6], 
+      [1, 8, 9])).toEqual(true);
+  });
 });
